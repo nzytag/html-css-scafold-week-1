@@ -1,2 +1,2 @@
 'use strict';
-prompt('are you glad we are done');
+// prompt('are you glad we are done');

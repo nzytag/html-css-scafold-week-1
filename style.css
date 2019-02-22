@@ -1,4 +1,8 @@
 /* app styles*/
+main {
+  width: 960px;
+  margin: 30px auto;
+}
 body {
   font-family: helvetica;
 }
@@ -16,22 +20,20 @@ header section {
 }
 
 header section img {
-  margin-top: 12px;
+  margin-top: 10px;
   float: left;
   margin-right: 20px;
 }
 
-header section li {
+header nav li {
   color: #fff;
   display: inline-block;
+  padding-top:15px;
   margin-top: 25px;
   margin-right: 80px;
   font-size: 20px;
 }
-main {
-  width: 960px;
-  margin: 30px auto;
-}
+
 
 .sub-banners li {
   float: left;
@@ -39,7 +41,7 @@ main {
   margin-top: 30px;
 }
 
-.sub-banners li:last-child {
+.sub-banners li:nth-child(3) {
   margin-right: 0;
 }
 
@@ -53,18 +55,23 @@ main {
   margin-right: 30px;
 }
 .featured-section div h2 {
-  font-size: 26px;
+  font-size: 25px;
   margin-bottom: 5px;
+  padding-top: 30px;
+  text-transform: uppercase;
+
 }
-featured-section div p {
-  line-height: 50px;
-  height: 300px;
+.featured-section div p {
   overflow: auto;
+  margin-top: 10px;
 }
 button {
   border: none;
-  padding: 8px 12px;
-  color: white
+  padding: 5px 10px;
+  color: black;
+  background-color: rgb(209,209,209);
+  margin-top: 10px;
+  text-transform: uppercase;
 
 }
 footer {
